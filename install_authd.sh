@@ -39,9 +39,9 @@ echo "📝 Configurando o broker do Microsoft Entra ID..."
 sudo cp /snap/authd-msentraid/current/conf/authd/msentraid.conf /etc/authd/brokers.d/
 
 # Define as variáveis de ambiente conforme seu pedido
-TENANT_ID="77bc4e1a-ae35-4264-a31c-6a302abd9b8c"
-CLIENT_ID="98c29ad6-3913-45c5-afaf-4b2427252b6a"
-DOMAIN="@hexingbrasil.onmicrosoft.com"
+TENANT_ID=""
+CLIENT_ID=""
+DOMAIN="@"
 
 # Edita o arquivo de configuração do broker exatamente como solicitado
 echo "📝 Criando broker.conf com a configuração exata..."
